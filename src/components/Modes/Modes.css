@@ -1,0 +1,46 @@
+.modes_section {
+    padding: 2.5rem 0;
+    background: #000;
+    color: #eee;
+}
+.modes_container {
+    max-width: 850px;
+    max-height: 900px;
+    margin: 5rem auto;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    line-height: 1.5;
+}
+.modes_container > h1 {
+    font-size: 4.5rem;
+}
+.modes_container > p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.mode_image_container {
+    height: 610px;
+    overflow: hidden;
+}
+.mode_image_container img {
+    width: 100%;
+    overflow: hidden;
+}
+.modes_button_container {
+    margin: 0 auto;
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.modes_button_container button:first-child {
+    border-left: 1px solid rgba(200, 200, 200, 0.6);
+}
+.modes_button_container button {
+    padding: 1rem;
+    margin: 0;
+    background: rgba(20, 20, 20, 0.7);
+    border-right: 1px solid rgba(200, 200, 200, 0.6);
+    color: #eee;
+    font-size: 1rem;
+    cursor: pointer;
+}

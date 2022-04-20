@@ -1,0 +1,27 @@
+.promo {
+    margin: 0 auto;
+    color: #eee;
+    padding: 4rem 0;
+}
+.promoSection {
+    width: 100vw;
+    background: #000;
+}
+.promo h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+.promo h2 {
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+.promo p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    max-width: 800px;
+}
+.promo video {
+    width: 100%;
+    margin: 2rem 0;
+}

@@ -1,22 +1,16 @@
 .hero_section {
-    width: 100vw;
     height: 100vh;
     margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .hero_video {
-    height: 100vh;
-    overflow: hidden;
-    object-fit: cover;
-} */
-.hero_video > video {
-    width: 100%;
+
+.hero_section > video {
     height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
     object-fit: cover;
     z-index: -5;
 }

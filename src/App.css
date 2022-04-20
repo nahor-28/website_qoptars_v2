@@ -4,7 +4,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #ddd;
+    overflow-x: hidden;
 }
-.container {
+.myContainer {
     max-width: 1200px;
 }

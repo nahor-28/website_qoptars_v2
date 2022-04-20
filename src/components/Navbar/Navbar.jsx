@@ -6,14 +6,25 @@ import logo from '../../assets/images/logo_main_white.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [colorChange, setColorChange] = useState(false)
 
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
 
+  const changeColor = () => {
+    if(window.scrollY > 80) {
+      setColorChange(true)
+    } else {
+      setColorChange(false)
+    }
+  }
+
+  window.addEventListener('scroll' , changeColor);
+
   return (
-    <header>
-      <nav className='navbar container'>
+    <header className={colorChange ? 'color_change': ''}>
+      <nav className='navbar myContainer'>
         <div className='navbar_logo'><Link to="/"><img src={logo} alt='logo'/></Link></div> {/* <img src={logo} alt='logo'/> */}
         <div className={isOpen ? 'navbar_contents_div navbar_mobile' : 'navbar_contents_div'}>
           <ul className='menu_contents'>

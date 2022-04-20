@@ -1,5 +1,6 @@
 import React from 'react'
 import './Button.css'
+import { motion } from 'framer-motion'
 
 const STYLES = ['btn_primary', 'btn_outline'];
 
@@ -12,12 +13,14 @@ const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+    <motion.button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
     >
         {children}
-    </button>
+    </motion.button>
   )
 }
 

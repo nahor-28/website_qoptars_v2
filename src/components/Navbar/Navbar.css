@@ -8,6 +8,7 @@ header {
     position: sticky;
     top: 0;
     font-size: 1.1rem;
+    transition: all 0.5s ease-in;
 }
 nav {
     width: 100%;
@@ -50,11 +51,14 @@ nav {
     border: 1px solid #eee;
     border-radius: 10px;
     padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: background 0.3s ease-in;
 }
 .navbar_button:hover {
     cursor: pointer;
     color: #303030;
     background: rgba(243, 243, 243, 0.9);
+
 }
 /* .navbar {
     margin: 0 auto;
@@ -62,7 +66,9 @@ nav {
 .navbar_hamburger {
     display: none;
 }
-
+.color_change {
+    background: rgba(41, 41, 41, 0.8);
+}
 
 @media screen and (max-width: 768px) {
     .navbar_hamburger {

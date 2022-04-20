@@ -1,0 +1,38 @@
+.profeatures_section {
+    background: rgb(20, 20, 20);
+    width: 100vw;
+    min-height: 600px;
+}
+.profeatures {
+    color: #505050;
+    max-width: 1300px;
+    background: rgb(20, 20, 20);
+    margin: auto;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+}
+/* .profeature:hover {
+    transform: scale(1.2);
+} */
+.featureWrapper {
+    padding: 0 1rem;
+}
+.profeature {
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+.profeature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.profeatures_video {
+    max-width: 900px;
+    background: rgba(40,40,40,0.5);
+}
+.align_right {
+    text-align: right;
+}
+.align_left {
+    text-align: left;
+}

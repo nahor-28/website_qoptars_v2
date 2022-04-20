@@ -1,0 +1,37 @@
+.camera_feature {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+.feature_img {
+    padding: 1rem;
+    max-width: 500px;
+} 
+.feature_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 2rem;
+}
+.feature_text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.feature_order {
+    order: 1;
+}
+.align_right {
+    text-align: right;
+}
+.align_left {
+    text-align: left;
+}
+.feature_img_size {
+    
+}
